@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+}
+/* --------- */
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+/* header */
+#image-content {
+  position: relative;
+  height: 400px;
+  border: 10px solid white;
+  background-image: url("../img/natural-forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#image-content h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#image-content #subtitle {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+nav {
+  height: 80px;
+  background: orange;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  line-height: 80px;
+}
+
+nav ul > li {
+  display: inline-block;
+  margin: 0 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* /header */
+
+/* main */
+
+main {
+  margin: 30px 0;
+  background: grey;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside#left {
+  width: 25%;
+  border-radius: 10px;
+}
+
+section {
+  width: 40%;
+  height: 400px;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+aside#right {
+  width: 25%;
+}
+
+.content {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: pink;
+}
+
+.content:last-child {
+  margin-bottom: 0;
+}
+/* /main */
+
+/* footer */
+footer {
+  padding: 20px 0;
+  border-radius: 10px;
+  background: lightblue;
+}
+
+footer #copyright {
+  text-align: center;
+  color: white;
+}
+
+footer hr {
+  border-top: 1px solid black;
+  margin: 20px 0;
+}
+
+footer #icons {
+  font-size: 30px;
+  text-align: center;
+}
+
+footer #icons .fab {
+  margin: 0 150px;
+}
+
+/* /footer */
