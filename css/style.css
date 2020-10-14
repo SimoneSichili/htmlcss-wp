@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #e0e0e0;
+  background-image: url("../img/natural-pattern.png");
   font-family: 'Montserrat', sans-serif;
 }
 /* --------- */
@@ -87,7 +87,6 @@ ul#menu li:hover {
 /* main */
 main {
   margin: 30px 0;
-  background: grey;
 }
 
 main::after {
@@ -96,16 +95,53 @@ main::after {
   clear: both;
 }
 
+main h2 {
+  padding-bottom: 20px;
+}
+
 aside#left {
   width: 25%;
   border-radius: 10px;
 }
 
-section {
+aside#left .fas {
+  width: 15%;
+  font-size: 30px;
+  color: orange;
+  float: left;
+}
+
+aside#left h2 {
+  width: 85%;
+  float: left;
+}
+
+aside#left li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+aside#left a {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+aside#left a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+section#center {
   width: 40%;
   height: 400px;
   margin-left: 5%;
   border-radius: 10px;
+}
+
+section .center-title {
+  text-transform: uppercase;
+  text-shadow: 3px 3px lightgrey;
 }
 
 aside#right {
@@ -117,7 +153,7 @@ aside#right {
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 10px;
-  background: pink;
+  background: white;
 }
 
 .content:last-child {
