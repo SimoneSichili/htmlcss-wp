@@ -164,6 +164,12 @@ aside#right {
 .content:last-child {
   margin-bottom: 0;
 }
+
+.content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* /main */
 
 /* footer */
