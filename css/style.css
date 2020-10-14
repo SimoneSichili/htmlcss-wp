@@ -39,20 +39,23 @@ body {
   background: rgba(0, 0, 0, 0.4);
 }
 
-#image-content h1 {
+#header-title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
   color: white;
 }
 
-#image-content #subtitle {
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
+#logo {
+  width: 400px;
+}
+
+#header-title h1 {
+  font-size: 30px;
 }
 
 nav {
