@@ -24,6 +24,12 @@ body {
   float: right;
 }
 
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* header */
 #image-content {
   position: relative;
@@ -88,12 +94,6 @@ ul#menu li:hover {
 /* main */
 main {
   margin: 30px 0;
-}
-
-main::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 main h2 {
@@ -163,12 +163,6 @@ aside#right {
 
 .content:last-child {
   margin-bottom: 0;
-}
-
-.content::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 /* /main */
 
