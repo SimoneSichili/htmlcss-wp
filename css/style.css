@@ -20,10 +20,6 @@ body {
   float: left;
 }
 
-.float-r {
-  float: right;
-}
-
 .clearfix {
   content: "";
   display: table;
@@ -139,8 +135,7 @@ aside#left a:hover {
 
 section#center {
   width: 40%;
-  height: 400px;
-  margin-left: 5%;
+  margin: 0 5%;
   border-radius: 10px;
 }
 
